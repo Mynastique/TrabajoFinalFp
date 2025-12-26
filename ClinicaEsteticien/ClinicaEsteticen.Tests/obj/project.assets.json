@@ -5514,11 +5514,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\herna\\Desktop\\ProyectoFp\\ClinicaEsteticien\\ClinicaEsteticen.Tests\\ClinicaEsteticen.Tests.csproj",
+      "projectUniqueName": "D:\\Repositorios\\Mina\\TrabajoFinalFp\\ClinicaEsteticien\\ClinicaEsteticen.Tests\\ClinicaEsteticen.Tests.csproj",
       "projectName": "ClinicaEsteticen.Tests",
-      "projectPath": "C:\\Users\\herna\\Desktop\\ProyectoFp\\ClinicaEsteticien\\ClinicaEsteticen.Tests\\ClinicaEsteticen.Tests.csproj",
+      "projectPath": "D:\\Repositorios\\Mina\\TrabajoFinalFp\\ClinicaEsteticien\\ClinicaEsteticen.Tests\\ClinicaEsteticen.Tests.csproj",
       "packagesPath": "C:\\Users\\herna\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\herna\\Desktop\\ProyectoFp\\ClinicaEsteticien\\ClinicaEsteticen.Tests\\obj\\",
+      "outputPath": "D:\\Repositorios\\Mina\\TrabajoFinalFp\\ClinicaEsteticien\\ClinicaEsteticen.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "E:\\ProgramasInstalados\\Ides\\MVS\\CompoToolsSdk\\NuGetPackages"
