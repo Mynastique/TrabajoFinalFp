@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ClinicaEsteticien.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9bee7f7e26f50feb0f4bc2c4e59296ab2a2405b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a8b1cde8fb4112ca30478b1e37bd118946105eb")]
 [assembly: System.Reflection.AssemblyProductAttribute("ClinicaEsteticien.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ClinicaEsteticien.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
