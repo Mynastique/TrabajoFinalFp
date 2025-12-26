@@ -1,2 +1,76 @@
-# Visual Studio
+# =========================
+# Visual Studio / VS Code
+# =========================
 .vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =========================
+# Build results
+# =========================
+bin/
+obj/
+out/
+
+# =========================
+# .NET / MSBuild
+# =========================
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+# =========================
+# NuGet
+# =========================
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+.nuget/packages/
+
+# =========================
+# Test results
+# =========================
+TestResults/
+coverage/
+coverage.cobertura.xml
+
+# =========================
+# Publish outputs
+# =========================
+publish/
+wwwroot/dist/
+
+# =========================
+# OS generated files
+# =========================
+[Dd]esktop.ini
+Thumbs.db
+ehthumbs.db
+.DS_Store
+
+# =========================
+# Rider / ReSharper
+# =========================
+.idea/
+_ReSharper*/
+*.DotSettings.user
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Secrets / local config
+# =========================
+appsettings.Development.json
+appsettings.Local.json
+.env
+.env.*
