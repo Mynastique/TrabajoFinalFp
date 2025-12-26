@@ -52,11 +52,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\herna\\Desktop\\ProyectoFp\\ClinicaEsteticien\\ClinicaEsteticen.Infrastructure\\ClinicaEsteticen.Infrastructure.csproj",
+      "projectUniqueName": "D:\\Repositorios\\Mina\\TrabajoFinalFp\\ClinicaEsteticien\\ClinicaEsteticen.Infrastructure\\ClinicaEsteticen.Infrastructure.csproj",
       "projectName": "ClinicaEsteticen.Infrastructure",
-      "projectPath": "C:\\Users\\herna\\Desktop\\ProyectoFp\\ClinicaEsteticien\\ClinicaEsteticen.Infrastructure\\ClinicaEsteticen.Infrastructure.csproj",
+      "projectPath": "D:\\Repositorios\\Mina\\TrabajoFinalFp\\ClinicaEsteticien\\ClinicaEsteticen.Infrastructure\\ClinicaEsteticen.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\herna\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\herna\\Desktop\\ProyectoFp\\ClinicaEsteticien\\ClinicaEsteticen.Infrastructure\\obj\\",
+      "outputPath": "D:\\Repositorios\\Mina\\TrabajoFinalFp\\ClinicaEsteticien\\ClinicaEsteticen.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "E:\\ProgramasInstalados\\Ides\\MVS\\CompoToolsSdk\\NuGetPackages"
@@ -78,11 +78,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\herna\\Desktop\\ProyectoFp\\ClinicaEsteticien\\ClinicaEsteticen.Application\\ClinicaEsteticen.Application.csproj": {
-              "projectPath": "C:\\Users\\herna\\Desktop\\ProyectoFp\\ClinicaEsteticien\\ClinicaEsteticen.Application\\ClinicaEsteticen.Application.csproj"
+            "D:\\Repositorios\\Mina\\TrabajoFinalFp\\ClinicaEsteticien\\ClinicaEsteticen.Application\\ClinicaEsteticen.Application.csproj": {
+              "projectPath": "D:\\Repositorios\\Mina\\TrabajoFinalFp\\ClinicaEsteticien\\ClinicaEsteticen.Application\\ClinicaEsteticen.Application.csproj"
             },
-            "C:\\Users\\herna\\Desktop\\ProyectoFp\\ClinicaEsteticien\\ClinicaEsteticen.Domain\\ClinicaEsteticen.Domain.csproj": {
-              "projectPath": "C:\\Users\\herna\\Desktop\\ProyectoFp\\ClinicaEsteticien\\ClinicaEsteticen.Domain\\ClinicaEsteticen.Domain.csproj"
+            "D:\\Repositorios\\Mina\\TrabajoFinalFp\\ClinicaEsteticien\\ClinicaEsteticen.Domain\\ClinicaEsteticen.Domain.csproj": {
+              "projectPath": "D:\\Repositorios\\Mina\\TrabajoFinalFp\\ClinicaEsteticien\\ClinicaEsteticen.Domain\\ClinicaEsteticen.Domain.csproj"
             }
           }
         }

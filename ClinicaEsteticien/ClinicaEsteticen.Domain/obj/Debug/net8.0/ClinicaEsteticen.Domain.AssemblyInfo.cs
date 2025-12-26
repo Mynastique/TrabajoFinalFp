@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ClinicaEsteticen.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84f5cecbb7541d48196142333f2c888658d49613")]
 [assembly: System.Reflection.AssemblyProductAttribute("ClinicaEsteticen.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ClinicaEsteticen.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
