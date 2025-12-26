@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicaEsteticien.Web", "ClinicaEsteticien\ClinicaEsteticien.Web.csproj", "{B2792B71-5498-4521-9B78-E51A7638D8F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicaEsteticen.Domain", "ClinicaEsteticen.Domain\ClinicaEsteticen.Domain.csproj", "{B67B9A2A-EED2-4872-BFC4-8C6209324410}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicaEsteticen.Application", "ClinicaEsteticen.Application\ClinicaEsteticen.Application.csproj", "{D860B6B4-E549-4C43-9FEB-EC66BD4AF5F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicaEsteticen.Infrastructure", "ClinicaEsteticen.Infrastructure\ClinicaEsteticen.Infrastructure.csproj", "{F64E8CED-0D3D-4730-8C99-3D50662524CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicaEsteticen.Tests", "ClinicaEsteticen.Tests\ClinicaEsteticen.Tests.csproj", "{6E39BE0D-B9DC-4523-A432-9A6693BBD05D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicaEsteticen.Migrations", "ClinicaEsteticen.Migrations\ClinicaEsteticen.Migrations.csproj", "{58E3BBEF-3D0C-42E3-8076-92C7E2E86F9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2792B71-5498-4521-9B78-E51A7638D8F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2792B71-5498-4521-9B78-E51A7638D8F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2792B71-5498-4521-9B78-E51A7638D8F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2792B71-5498-4521-9B78-E51A7638D8F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B67B9A2A-EED2-4872-BFC4-8C6209324410}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B67B9A2A-EED2-4872-BFC4-8C6209324410}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B67B9A2A-EED2-4872-BFC4-8C6209324410}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B67B9A2A-EED2-4872-BFC4-8C6209324410}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D860B6B4-E549-4C43-9FEB-EC66BD4AF5F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D860B6B4-E549-4C43-9FEB-EC66BD4AF5F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D860B6B4-E549-4C43-9FEB-EC66BD4AF5F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D860B6B4-E549-4C43-9FEB-EC66BD4AF5F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F64E8CED-0D3D-4730-8C99-3D50662524CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F64E8CED-0D3D-4730-8C99-3D50662524CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F64E8CED-0D3D-4730-8C99-3D50662524CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F64E8CED-0D3D-4730-8C99-3D50662524CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E39BE0D-B9DC-4523-A432-9A6693BBD05D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E39BE0D-B9DC-4523-A432-9A6693BBD05D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E39BE0D-B9DC-4523-A432-9A6693BBD05D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E39BE0D-B9DC-4523-A432-9A6693BBD05D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58E3BBEF-3D0C-42E3-8076-92C7E2E86F9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58E3BBEF-3D0C-42E3-8076-92C7E2E86F9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58E3BBEF-3D0C-42E3-8076-92C7E2E86F9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58E3BBEF-3D0C-42E3-8076-92C7E2E86F9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

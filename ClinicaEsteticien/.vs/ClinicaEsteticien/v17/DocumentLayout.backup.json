@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\herna\\Desktop\\ProyectoFp\\ClinicaEsteticien\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{58E3BBEF-3D0C-42E3-8076-92C7E2E86F9D}|ClinicaEsteticen.Migrations\\ClinicaEsteticen.Migrations.csproj|c:\\users\\herna\\desktop\\proyectofp\\clinicaesteticien\\clinicaesteticen.migrations\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E3BBEF-3D0C-42E3-8076-92C7E2E86F9D}|ClinicaEsteticen.Migrations\\ClinicaEsteticen.Migrations.csproj|solutionrelative:clinicaesteticen.migrations\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E39BE0D-B9DC-4523-A432-9A6693BBD05D}|ClinicaEsteticen.Tests\\ClinicaEsteticen.Tests.csproj|c:\\users\\herna\\desktop\\proyectofp\\clinicaesteticien\\clinicaesteticen.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E39BE0D-B9DC-4523-A432-9A6693BBD05D}|ClinicaEsteticen.Tests\\ClinicaEsteticen.Tests.csproj|solutionrelative:clinicaesteticen.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\herna\\Desktop\\ProyectoFp\\ClinicaEsteticien\\ClinicaEsteticen.Migrations\\Class1.cs",
+              "RelativeDocumentMoniker": "ClinicaEsteticen.Migrations\\Class1.cs",
+              "ToolTip": "C:\\Users\\herna\\Desktop\\ProyectoFp\\ClinicaEsteticien\\ClinicaEsteticen.Migrations\\Class1.cs",
+              "RelativeToolTip": "ClinicaEsteticen.Migrations\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T14:22:12.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\herna\\Desktop\\ProyectoFp\\ClinicaEsteticien\\ClinicaEsteticen.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "ClinicaEsteticen.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\herna\\Desktop\\ProyectoFp\\ClinicaEsteticien\\ClinicaEsteticen.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "ClinicaEsteticen.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T14:21:50.954Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
