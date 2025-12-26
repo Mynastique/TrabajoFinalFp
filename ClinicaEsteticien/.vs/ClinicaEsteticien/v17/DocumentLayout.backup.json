@@ -1,14 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\herna\\Desktop\\ProyectoFp\\ClinicaEsteticien\\",
+  "WorkspaceRootPath": "D:\\Repositorios\\Mina\\TrabajoFinalFp\\ClinicaEsteticien\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{58E3BBEF-3D0C-42E3-8076-92C7E2E86F9D}|ClinicaEsteticen.Migrations\\ClinicaEsteticen.Migrations.csproj|c:\\users\\herna\\desktop\\proyectofp\\clinicaesteticien\\clinicaesteticen.migrations\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58E3BBEF-3D0C-42E3-8076-92C7E2E86F9D}|ClinicaEsteticen.Migrations\\ClinicaEsteticen.Migrations.csproj|solutionrelative:clinicaesteticen.migrations\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B2792B71-5498-4521-9B78-E51A7638D8F3}|ClinicaEsteticien\\ClinicaEsteticien.Web.csproj|d:\\repositorios\\mina\\trabajofinalfp\\clinicaesteticien\\clinicaesteticien\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B2792B71-5498-4521-9B78-E51A7638D8F3}|ClinicaEsteticien\\ClinicaEsteticien.Web.csproj|solutionrelative:clinicaesteticien\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E39BE0D-B9DC-4523-A432-9A6693BBD05D}|ClinicaEsteticen.Tests\\ClinicaEsteticen.Tests.csproj|c:\\users\\herna\\desktop\\proyectofp\\clinicaesteticien\\clinicaesteticen.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E39BE0D-B9DC-4523-A432-9A6693BBD05D}|ClinicaEsteticen.Tests\\ClinicaEsteticen.Tests.csproj|solutionrelative:clinicaesteticen.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B2792B71-5498-4521-9B78-E51A7638D8F3}|ClinicaEsteticien\\ClinicaEsteticien.Web.csproj|d:\\repositorios\\mina\\trabajofinalfp\\clinicaesteticien\\clinicaesteticien\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2792B71-5498-4521-9B78-E51A7638D8F3}|ClinicaEsteticien\\ClinicaEsteticien.Web.csproj|solutionrelative:clinicaesteticien\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2792B71-5498-4521-9B78-E51A7638D8F3}|ClinicaEsteticien\\ClinicaEsteticien.Web.csproj|d:\\repositorios\\mina\\trabajofinalfp\\clinicaesteticien\\clinicaesteticien\\clinicaesteticien.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B2792B71-5498-4521-9B78-E51A7638D8F3}|ClinicaEsteticien\\ClinicaEsteticien.Web.csproj|solutionrelative:clinicaesteticien\\clinicaesteticien.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64E8CED-0D3D-4730-8C99-3D50662524CA}|ClinicaEsteticen.Infrastructure\\ClinicaEsteticen.Infrastructure.csproj|d:\\repositorios\\mina\\trabajofinalfp\\clinicaesteticien\\clinicaesteticen.infrastructure\\clinicaesteticen.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F64E8CED-0D3D-4730-8C99-3D50662524CA}|ClinicaEsteticen.Infrastructure\\ClinicaEsteticen.Infrastructure.csproj|solutionrelative:clinicaesteticen.infrastructure\\clinicaesteticen.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2792B71-5498-4521-9B78-E51A7638D8F3}|ClinicaEsteticien\\ClinicaEsteticien.Web.csproj|d:\\repositorios\\mina\\trabajofinalfp\\clinicaesteticien\\clinicaesteticien\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B2792B71-5498-4521-9B78-E51A7638D8F3}|ClinicaEsteticien\\ClinicaEsteticien.Web.csproj|solutionrelative:clinicaesteticien\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64E8CED-0D3D-4730-8C99-3D50662524CA}|ClinicaEsteticen.Infrastructure\\ClinicaEsteticen.Infrastructure.csproj|d:\\repositorios\\mina\\trabajofinalfp\\clinicaesteticien\\clinicaesteticen.infrastructure\\contextobasededatos\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64E8CED-0D3D-4730-8C99-3D50662524CA}|ClinicaEsteticen.Infrastructure\\ClinicaEsteticen.Infrastructure.csproj|solutionrelative:clinicaesteticen.infrastructure\\contextobasededatos\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64E8CED-0D3D-4730-8C99-3D50662524CA}|ClinicaEsteticen.Infrastructure\\ClinicaEsteticen.Infrastructure.csproj|d:\\repositorios\\mina\\trabajofinalfp\\clinicaesteticien\\clinicaesteticen.infrastructure\\configuraciones\\configuracionbonotratamiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64E8CED-0D3D-4730-8C99-3D50662524CA}|ClinicaEsteticen.Infrastructure\\ClinicaEsteticen.Infrastructure.csproj|solutionrelative:clinicaesteticen.infrastructure\\configuraciones\\configuracionbonotratamiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64E8CED-0D3D-4730-8C99-3D50662524CA}|ClinicaEsteticen.Infrastructure\\ClinicaEsteticen.Infrastructure.csproj|d:\\repositorios\\mina\\trabajofinalfp\\clinicaesteticien\\clinicaesteticen.infrastructure\\configuraciones\\configuracionpromocionbono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64E8CED-0D3D-4730-8C99-3D50662524CA}|ClinicaEsteticen.Infrastructure\\ClinicaEsteticen.Infrastructure.csproj|solutionrelative:clinicaesteticen.infrastructure\\configuraciones\\configuracionpromocionbono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64E8CED-0D3D-4730-8C99-3D50662524CA}|ClinicaEsteticen.Infrastructure\\ClinicaEsteticen.Infrastructure.csproj|d:\\repositorios\\mina\\trabajofinalfp\\clinicaesteticien\\clinicaesteticen.infrastructure\\configuraciones\\configuracionpromociontratamiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64E8CED-0D3D-4730-8C99-3D50662524CA}|ClinicaEsteticen.Infrastructure\\ClinicaEsteticen.Infrastructure.csproj|solutionrelative:clinicaesteticen.infrastructure\\configuraciones\\configuracionpromociontratamiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64E8CED-0D3D-4730-8C99-3D50662524CA}|ClinicaEsteticen.Infrastructure\\ClinicaEsteticen.Infrastructure.csproj|d:\\repositorios\\mina\\trabajofinalfp\\clinicaesteticien\\clinicaesteticen.infrastructure\\configuraciones\\configuracionpromocion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64E8CED-0D3D-4730-8C99-3D50662524CA}|ClinicaEsteticen.Infrastructure\\ClinicaEsteticen.Infrastructure.csproj|solutionrelative:clinicaesteticen.infrastructure\\configuraciones\\configuracionpromocion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64E8CED-0D3D-4730-8C99-3D50662524CA}|ClinicaEsteticen.Infrastructure\\ClinicaEsteticen.Infrastructure.csproj|d:\\repositorios\\mina\\trabajofinalfp\\clinicaesteticien\\clinicaesteticen.infrastructure\\configuraciones\\configuracioncompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64E8CED-0D3D-4730-8C99-3D50662524CA}|ClinicaEsteticen.Infrastructure\\ClinicaEsteticen.Infrastructure.csproj|solutionrelative:clinicaesteticen.infrastructure\\configuraciones\\configuracioncompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +54,150 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClinicaEsteticien.Web",
+              "DocumentMoniker": "D:\\Repositorios\\Mina\\TrabajoFinalFp\\ClinicaEsteticien\\ClinicaEsteticien\\ClinicaEsteticien.Web.csproj",
+              "RelativeDocumentMoniker": "ClinicaEsteticien\\ClinicaEsteticien.Web.csproj",
+              "ToolTip": "D:\\Repositorios\\Mina\\TrabajoFinalFp\\ClinicaEsteticien\\ClinicaEsteticien\\ClinicaEsteticien.Web.csproj",
+              "RelativeToolTip": "ClinicaEsteticien\\ClinicaEsteticien.Web.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-26T10:44:28.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\herna\\Desktop\\ProyectoFp\\ClinicaEsteticien\\ClinicaEsteticen.Migrations\\Class1.cs",
-              "RelativeDocumentMoniker": "ClinicaEsteticen.Migrations\\Class1.cs",
-              "ToolTip": "C:\\Users\\herna\\Desktop\\ProyectoFp\\ClinicaEsteticien\\ClinicaEsteticen.Migrations\\Class1.cs",
-              "RelativeToolTip": "ClinicaEsteticen.Migrations\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T14:22:12.701Z",
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Repositorios\\Mina\\TrabajoFinalFp\\ClinicaEsteticien\\ClinicaEsteticien\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ClinicaEsteticien\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Repositorios\\Mina\\TrabajoFinalFp\\ClinicaEsteticien\\ClinicaEsteticien\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ClinicaEsteticien\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-26T10:29:23.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Repositorios\\Mina\\TrabajoFinalFp\\ClinicaEsteticien\\ClinicaEsteticien\\appsettings.json",
+              "RelativeDocumentMoniker": "ClinicaEsteticien\\appsettings.json",
+              "ToolTip": "D:\\Repositorios\\Mina\\TrabajoFinalFp\\ClinicaEsteticien\\ClinicaEsteticien\\appsettings.json",
+              "RelativeToolTip": "ClinicaEsteticien\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-26T10:29:09.145Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\herna\\Desktop\\ProyectoFp\\ClinicaEsteticien\\ClinicaEsteticen.Tests\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "ClinicaEsteticen.Tests\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\herna\\Desktop\\ProyectoFp\\ClinicaEsteticien\\ClinicaEsteticen.Tests\\UnitTest1.cs",
-              "RelativeToolTip": "ClinicaEsteticen.Tests\\UnitTest1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Repositorios\\Mina\\TrabajoFinalFp\\ClinicaEsteticien\\ClinicaEsteticien\\Program.cs",
+              "RelativeDocumentMoniker": "ClinicaEsteticien\\Program.cs",
+              "ToolTip": "D:\\Repositorios\\Mina\\TrabajoFinalFp\\ClinicaEsteticien\\ClinicaEsteticien\\Program.cs",
+              "RelativeToolTip": "ClinicaEsteticien\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T14:21:50.954Z"
+              "WhenOpened": "2025-12-26T10:26:58.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Repositorios\\Mina\\TrabajoFinalFp\\ClinicaEsteticien\\ClinicaEsteticen.Infrastructure\\ContextoBaseDeDatos\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ClinicaEsteticen.Infrastructure\\ContextoBaseDeDatos\\AppDbContext.cs",
+              "ToolTip": "D:\\Repositorios\\Mina\\TrabajoFinalFp\\ClinicaEsteticien\\ClinicaEsteticen.Infrastructure\\ContextoBaseDeDatos\\AppDbContext.cs",
+              "RelativeToolTip": "ClinicaEsteticen.Infrastructure\\ContextoBaseDeDatos\\AppDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T10:22:12.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClinicaEsteticen.Infrastructure",
+              "DocumentMoniker": "D:\\Repositorios\\Mina\\TrabajoFinalFp\\ClinicaEsteticien\\ClinicaEsteticen.Infrastructure\\ClinicaEsteticen.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "ClinicaEsteticen.Infrastructure\\ClinicaEsteticen.Infrastructure.csproj",
+              "ToolTip": "D:\\Repositorios\\Mina\\TrabajoFinalFp\\ClinicaEsteticien\\ClinicaEsteticen.Infrastructure\\ClinicaEsteticen.Infrastructure.csproj",
+              "RelativeToolTip": "ClinicaEsteticen.Infrastructure\\ClinicaEsteticen.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-26T10:20:43.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ConfiguracionPromocionBono.cs",
+              "DocumentMoniker": "D:\\Repositorios\\Mina\\TrabajoFinalFp\\ClinicaEsteticien\\ClinicaEsteticen.Infrastructure\\Configuraciones\\ConfiguracionPromocionBono.cs",
+              "RelativeDocumentMoniker": "ClinicaEsteticen.Infrastructure\\Configuraciones\\ConfiguracionPromocionBono.cs",
+              "ToolTip": "D:\\Repositorios\\Mina\\TrabajoFinalFp\\ClinicaEsteticien\\ClinicaEsteticen.Infrastructure\\Configuraciones\\ConfiguracionPromocionBono.cs",
+              "RelativeToolTip": "ClinicaEsteticen.Infrastructure\\Configuraciones\\ConfiguracionPromocionBono.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T10:18:12.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ConfiguracionPromocionTratamiento.cs",
+              "DocumentMoniker": "D:\\Repositorios\\Mina\\TrabajoFinalFp\\ClinicaEsteticien\\ClinicaEsteticen.Infrastructure\\Configuraciones\\ConfiguracionPromocionTratamiento.cs",
+              "RelativeDocumentMoniker": "ClinicaEsteticen.Infrastructure\\Configuraciones\\ConfiguracionPromocionTratamiento.cs",
+              "ToolTip": "D:\\Repositorios\\Mina\\TrabajoFinalFp\\ClinicaEsteticien\\ClinicaEsteticen.Infrastructure\\Configuraciones\\ConfiguracionPromocionTratamiento.cs",
+              "RelativeToolTip": "ClinicaEsteticen.Infrastructure\\Configuraciones\\ConfiguracionPromocionTratamiento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T10:17:23.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ConfiguracionPromocion.cs",
+              "DocumentMoniker": "D:\\Repositorios\\Mina\\TrabajoFinalFp\\ClinicaEsteticien\\ClinicaEsteticen.Infrastructure\\Configuraciones\\ConfiguracionPromocion.cs",
+              "RelativeDocumentMoniker": "ClinicaEsteticen.Infrastructure\\Configuraciones\\ConfiguracionPromocion.cs",
+              "ToolTip": "D:\\Repositorios\\Mina\\TrabajoFinalFp\\ClinicaEsteticien\\ClinicaEsteticen.Infrastructure\\Configuraciones\\ConfiguracionPromocion.cs",
+              "RelativeToolTip": "ClinicaEsteticen.Infrastructure\\Configuraciones\\ConfiguracionPromocion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T10:16:48.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ConfiguracionCompra.cs",
+              "DocumentMoniker": "D:\\Repositorios\\Mina\\TrabajoFinalFp\\ClinicaEsteticien\\ClinicaEsteticen.Infrastructure\\Configuraciones\\ConfiguracionCompra.cs",
+              "RelativeDocumentMoniker": "ClinicaEsteticen.Infrastructure\\Configuraciones\\ConfiguracionCompra.cs",
+              "ToolTip": "D:\\Repositorios\\Mina\\TrabajoFinalFp\\ClinicaEsteticien\\ClinicaEsteticen.Infrastructure\\Configuraciones\\ConfiguracionCompra.cs",
+              "RelativeToolTip": "ClinicaEsteticen.Infrastructure\\Configuraciones\\ConfiguracionCompra.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAADwvzQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T10:16:05.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ConfiguracionBonoTratamiento.cs",
+              "DocumentMoniker": "D:\\Repositorios\\Mina\\TrabajoFinalFp\\ClinicaEsteticien\\ClinicaEsteticen.Infrastructure\\Configuraciones\\ConfiguracionBonoTratamiento.cs",
+              "RelativeDocumentMoniker": "ClinicaEsteticen.Infrastructure\\Configuraciones\\ConfiguracionBonoTratamiento.cs",
+              "ToolTip": "D:\\Repositorios\\Mina\\TrabajoFinalFp\\ClinicaEsteticien\\ClinicaEsteticen.Infrastructure\\Configuraciones\\ConfiguracionBonoTratamiento.cs",
+              "RelativeToolTip": "ClinicaEsteticen.Infrastructure\\Configuraciones\\ConfiguracionBonoTratamiento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T10:15:27.708Z",
+              "EditorCaption": ""
             }
           ]
         }

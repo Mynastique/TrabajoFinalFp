@@ -65,7 +65,7 @@
             },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[10.0.1, )"
+              "version": "[8.0.1, )"
             },
             "Microsoft.SqlServer.Server": {
               "target": "Package",
@@ -74,6 +74,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[8.1.4, )"
             }
           },
           "imports": [
@@ -153,7 +157,7 @@
             },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[10.0.1, )"
+              "version": "[8.0.1, )"
             },
             "Microsoft.SqlServer.Server": {
               "target": "Package",
@@ -162,6 +166,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[8.1.4, )"
             }
           },
           "imports": [
@@ -248,7 +256,7 @@
             },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[10.0.1, )"
+              "version": "[8.0.1, )"
             },
             "Microsoft.SqlServer.Server": {
               "target": "Package",
@@ -257,6 +265,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[8.1.4, )"
             }
           },
           "imports": [
