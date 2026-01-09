@@ -9,6 +9,6 @@
 ## Instalación
 1. Clonar el repositorio:
 ```bash
-git clone https://github.com/irenegonzalezgarcia-jpg/TFG-DAW.git 
+git clone https://github.com/Mynastique/TrabajoFinalFp.git
 ```
 2. 
