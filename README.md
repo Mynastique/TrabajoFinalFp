@@ -11,4 +11,5 @@
 ```bash
 git clone https://github.com/Mynastique/TrabajoFinalFp.git
 ```
-2. 
+2. Abrir el archivo index.html en el navegador o usar la extensión Live Server de VS Code.
+
