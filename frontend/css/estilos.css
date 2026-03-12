@@ -58,11 +58,11 @@ nav a {
   padding: 10px 20px; /* Espacio dentro del borde */
   border: 1px solid #ccc;
   margin-bottom: 5px; /* Espacio entre botones */
-  background-color: #dce8d3;
 }
 
 nav a:hover {
-  background-color: beige;
+background-color:rgb(109, 109, 101);
+color: white;
 }
 
 .btn-inicio {
@@ -82,6 +82,7 @@ nav a:hover {
   align-items: center; /* ESTO centra el contenido verticalmente */
   text-align: center;
   padding: 40px 5%; /* Un poco de aire a los lados para que no toque los bordes */
+background-color:rgb(247, 230, 230);
 }
 
 section h1 {
