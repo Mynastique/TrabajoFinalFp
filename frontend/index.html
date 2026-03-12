@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,105 +8,128 @@
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon">
 </head>
+
 <body>
 
-<!--Encabezado-->
+    <!--Encabezado-->
+    <header id="inicio">
+        <div class="encabezado">
+            <div class="logo">
+                <img src="imagenes/logo.png" alt="logo" class="logo-pequeño">
+            </div>
 
-    <header class="row">
-    <div class="col-2">
-        <div class="logo">
-            <img src="imagenes/logo.png" alt="logo" class="logo-pequeño">
-        </div>
-    </div>
-    <div class="col-8">
 
-<!--Barra de navegación-->
-
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="facial.html">Facial</a></li>
-                <li><a href="corporal.html">Corporal</a></li>
-                <li><a href="reservarCita.html">Reservar cita</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </div>
-    <div class="col-2">
-        <a href="login.html" class="btn-sesion">Iniciar sesión</a>
-    </div>
-</header>
-
-<!--Secciones-->
-
-<main>
-    <section class="hero row">
-        <div class="col-5">
-            <h1>Los tratamientos más deseados</h1>
-            <p>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu.</p>
-            <button class="btn-outline">Conócelos</button>
-        </div>
-        <div class="col-7">
-            <div class="hero-image-container">
-                <img src="imagenes/hero-image.jpg" alt="Tratamientos destacados">
+            <!--Barra de navegación-->
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="facial.html">Facial</a>
+                <a href="corporal.html">Corporal</a>
+                <a href="reservarCita.html">Reservar cita</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+            <div>
+                <button class=" btn-inicio efecto"><a href="login.html">Iniciar sesión</a></button>
             </div>
         </div>
-    </section>
+    </header>
 
-    <section class="promociones">
-        <div class="row">
-            <div class="col-12">
-                <h2>Promociones</h2>
-                <p>Descripción breve de las promociones actuales.</p>
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="col-6">
-                <div class="promo-main">
-                    <img src="imagenes/promo1.jpg" alt="Promoción principal">
-                </div>
+    <!--Secciones-->
+    <main>
+        <section class="section1 row">
+            <div class="uno col-6">
+                <h1>Centro de éstetica y bienestar</h1>
+                <h3>LOS TRATAMIENTOS MAS DESEADOS</h3>
+                <p>Ofrecemos una amplia gama de tratamientos faciales y corporales que combinan la última aparatología
+                    con productos de referencia, un equipo profesional y cosmética natural.</p>
+                <button class="btn-conocelos efecto">Conócelos</button>
             </div>
             <div class="col-6">
-                <div class="row">
-                    <div class="col-6"><div class="promo-small"><img src="imagenes/p2.jpg"></div></div>
-                    <div class="col-6"><div class="promo-small"><img src="imagenes/p3.jpg"></div></div>
-                    <div class="col-6"><div class="promo-small"><img src="imagenes/p4.jpg"></div></div>
-                    <div class="col-6"><div class="promo-small"><img src="imagenes/p5.jpg"></div></div>
+                <div>
+                    <img class="img1" src="imagenes/imagen2.jpg" alt="Tratamientos destacados">
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="row">
-            <div class="col-12 text-center">
-                <button class="btn-dark">Ver todas las promociones</button>
+        <section class="section2">
+            <div class="row">
+                <div class="col-12">
+                    <h3>PROMOCIONES</h3>
+                    <h4>Tenemos las mejores promociones para cuidar de ti</h4>
+                    <p>En esta sección encontrarás promociones sobre el cuidado de tu salud y belleza.</p>
+                </div>
+
+                <div class="col-6">
+                    <div class="fondo">
+                        <h3>Super Brillante</h3>
+                        <p>Combina la última aparatología con masajes drenantes para reafirmar y tonificar tu cuerpo.
+                        </p>
+                        <a href="promociones.html">Aprovecha esta promo</a>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <div class="fondo1">
+                        <h3>Renuévate</h3>
+                        <p>Higiene facial con ultrasonidos + Tratamiento dermoestético específico + exfoliante corporal.
+                        </p>
+                        <a href="promociones.html">Aprovecha esta promo</a>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <div class="fondo2">
+                        <h3>Siempre Divina</h3>
+                        <p>Armonización facial con ácido hialurónico: Un único tratamiento con múltiples aplicaciones.
+                        </p>
+                        <a href="promociones.html">Aprovecha esta promo</a>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <div class="fondo3">
+                        <h3>Silueta Perfecta</h3>
+                        <p>Consigue una piel suave y radiante con nuestro tratamiento de exfoliación sensorial.</p>
+                        <a href="promociones.html">Aprovecha esta promo</a>
+                    </div>
+                </div>
+
+                <div class="col-12 centro-boton">
+                    <a href="promociones.html">
+                        <button class="btn-promo efecto">Ver todas las promociones</button>
+                    </a>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="experiencia row">
-        <div class="col-12">
-            <div class="banner-box">
+        <section class="section3 row">
+            <div class="col-12 fondo4">
                 <h2>ESPACIO DONDE VIVIR UNA EXPERIENCIA ÚNICA DE RELAJACIÓN Y BIENESTAR</h2>
             </div>
+        </section>
+    </main>
+
+    <!--flecha a inicio-->
+    <div class="flecha">
+        <a href="index.html#inicio"><img src="imagenes/flecha-hacia-arriba.png" alt=""></a>
+    </div>
+
+    <!--Pie de página-->
+    <footer class="row final">
+        <div class="col-4">
+            <img src="imagenes/logo.png" alt="logo" class="logo-pequeño">
         </div>
-    </section>
-</main>
-
-<!--Pie de página-->
-
-<footer class="row">
-    <div class="col-4">
-        <img src="imagenes/logo.png" alt="Logo" class="logo-pequeño">
-    </div>
-    <div class="col-4">
-        <p>© 2026 Inspire Beauty - Centro de estética. Todos los derechos reservados.</p>
-    </div>
-    <div class="col-4">
-        <div class="social-icons">
+        <div class="col-4">
+            <p>© 2026 Inspire Beauty - Centro de estética. Todos los derechos reservados.</p>
+        </div>
+        <div class="col-4 redes">
+            <div>
+                <img src="imagenes/facebook.png" alt="">
+                <img src="imagenes/instagram.png" alt="">
+                <img src="imagenes/whatsapp.png" alt="">
             </div>
-    </div>
-</footer>
-    
+        </div>
+    </footer>
+
 </body>
+
 </html>
