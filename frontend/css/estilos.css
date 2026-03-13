@@ -203,6 +203,8 @@ section h3 {
   color: white;
 }
 
+/*footer*/
+
 footer {
   margin-top: 60px;
   padding: 40px;
@@ -210,6 +212,14 @@ footer {
   text-align: center;
 }
 
+footer nav a{
+  margin: 0px;
+  display: inline-block; /* Esto hace que el ancho sea solo el del texto */
+  padding: 4px; /* Espacio dentro del borde */
+  border: 0;
+  margin-bottom: 0px; /* Espacio entre botones */
+
+}
 .redes img {
   margin: 5px;
 }
