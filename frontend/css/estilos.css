@@ -61,8 +61,8 @@ nav a {
 }
 
 nav a:hover {
-background-color:rgb(109, 109, 101);
-color: white;
+  background-color: rgb(109, 109, 101);
+  color: white;
 }
 
 .btn-inicio {
@@ -82,7 +82,7 @@ color: white;
   align-items: center; /* ESTO centra el contenido verticalmente */
   text-align: center;
   padding: 40px 5%; /* Un poco de aire a los lados para que no toque los bordes */
-background-color:rgb(247, 230, 230);
+  background-color: rgb(247, 230, 230);
 }
 
 section h1 {
@@ -175,7 +175,7 @@ section h3 {
   background-size: cover; /* Hace que la imagen cubra todo el contenedor */
   background-position: center; /* Centra la imagen para que no se corte un lado */
   padding: 2%;
-  margin: 20px 100px;
+  margin: 20px 10px;
   font-weight: bold; /* Esto pone la letra en negrita estándar */
   opacity: 0.9;
 }
@@ -198,8 +198,8 @@ section h3 {
   background-repeat: no-repeat; /* Evita que la imagen se duplique */
   background-size: cover; /* Hace que la imagen cubra todo el contenedor */
   background-position: center; /* Centra la imagen para que no se corte un lado */
-  padding: 150px;
-  margin: 50px;
+  padding: 100px 10px;
+  margin: 10px 40px;
   color: white;
 }
 
@@ -212,13 +212,12 @@ footer {
   text-align: center;
 }
 
-footer nav a{
+footer nav a {
   margin: 0px;
   display: inline-block; /* Esto hace que el ancho sea solo el del texto */
   padding: 4px; /* Espacio dentro del borde */
   border: 0;
   margin-bottom: 0px; /* Espacio entre botones */
-
 }
 .redes img {
   margin: 5px;
@@ -261,7 +260,7 @@ footer nav a{
   .encabezado {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items:center;
   }
   .col-4 {
     width: 33.33%;
