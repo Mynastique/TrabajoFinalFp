@@ -1,8 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 /*estilos universales*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700; /* Esto le da el grosor elegante */
+  color: #4a4a4a; /* Un gris oscuro queda más suave que el negro puro */
 }
 
 img {
@@ -20,7 +29,7 @@ a {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 [class^="col-"] {
@@ -63,6 +72,7 @@ nav a {
 nav a:hover {
   background-color: rgb(109, 109, 101);
   color: white;
+  transition: 0.3s;
 }
 
 .btn-inicio {
@@ -74,6 +84,7 @@ nav a:hover {
 }
 .btn-inicio:hover {
   background-color: rgb(223, 223, 150);
+  transition: 0.3s;
 }
 
 /*1ºsección*/
@@ -111,6 +122,7 @@ section h3 {
 }
 .btn-conocelos:hover {
   background-color: rgb(223, 223, 150);
+  transition: 0.3s;
 }
 
 .img1 {
@@ -149,6 +161,7 @@ section h3 {
 
 .btn-promo:hover {
   background-color: rgb(223, 223, 150);
+  transition: 0.3s;
 }
 
 .fondo {
@@ -260,7 +273,7 @@ footer nav a {
   .encabezado {
     display: flex;
     justify-content: space-around;
-    align-items:center;
+    align-items: center;
   }
   .col-4 {
     width: 33.33%;

@@ -1,13 +1,13 @@
-# 💅 i+i Estética - Sistema de Gestión de Citas Online
+# 💅 Inspire Beauty - Sistema de Gestión de Citas Online
 
 Proyecto enfocado en el desarrollo de la **Interfaz de Usuario (Frontend)** para el Trabajo Fin de Grado (TFG) del ciclo formativo de Grado Superior en Desarrollo de Aplicaciones Web (DAW).
 
 ## 📖 Descripción
-Este proyecto consiste en el diseño y desarrollo de una plataforma web integral para **i+i Estética**, un centro especializado en tratamientos de belleza. El objetivo es digitalizar la reserva de citas, ofreciendo una experiencia de usuario fluida para los clientes y una herramienta de gestión eficiente para el administrador del centro.
+Este proyecto consiste en el diseño y desarrollo de una plataforma web integral para **Inspire Beauty**, un centro especializado en tratamientos de belleza. El objetivo es digitalizar la reserva de citas, ofreciendo una experiencia de usuario fluida para los clientes y una herramienta de gestión eficiente para el administrador del centro.
 
 ## 👥 Autores y Roles
 * **[Irene González García]**: Responsable del **Frontend** (Interfaz de usuario, UX/UI y lógica de cliente).
-* **[]**: Responsable del **Backend** (API, Base de Datos y lógica de servidor).
+* **[Inmaculada Hortelano ]**: Responsable del **Backend** (API, Base de Datos y lógica de servidor).
 
 ## 🛠️ Tecnologías Utilizadas
 ### Frontend (Desarrollado por Irene)
@@ -15,7 +15,9 @@ Este proyecto consiste en el diseño y desarrollo de una plataforma web integral
 - **CSS3:** Diseño personalizado y responsivo utilizando **Flexbox y Grid**. Uso de variables para mantener la coherencia visual.
 - **JavaScript (ES6+):** Lógica de interacción, manipulación dinámica del DOM y consumo de API mediante `Fetch`.
 - **Control de Versiones:** Git y GitHub para la gestión del repositorio y seguimiento de cambios.
+- **Gestión y Planificación:** Trello (Tablero Kanban para el seguimiento de tareas y sprints).
 - **Diseño UX/UI:** Planificación previa mediante **Wireframes** para optimizar la usabilidad.
+- **Entorno de Desarrollo:** Visual Studio Code, utilizando extensiones como Live Server para pruebas en tiempo real y Prettier para la consistencia del código.
 ### Backend (Desarrollado por Inmaculada)
 
 
