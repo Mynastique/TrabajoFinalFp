@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+/*Estilos Universales*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700; /* Esto le da el grosor elegante */
+  color: #4a4a4a; /* Un gris oscuro queda más suave que el negro puro */
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+[class^="col-"] {
+  width: 100%;
+  padding: 5px;
+}
+
+.efecto {
+  padding: 5px;
+}
+
+.efecto:hover {
+  transform: scale(1.1);
+  filter: brightness(1.1);
+}
+
+.logo-pequeño {
+  width: 200px;
+  height: 100px;
+  object-fit: contain; /* Esto evita que la imagen se deforme */
+}
+/*Header*/
+header {
+  text-align: center;
+  margin: 10px;
+}
+
+.logo {
+  margin: 10px;
+}
+/*Barra de Navegación*/
+
+nav a {
+  display: block; /* Esto hace que el ancho sea solo el del texto */
+  padding: 10px 20px; /* Espacio dentro del borde */
+  border: 1px solid #ccc;
+  margin-bottom: 5px; /* Espacio entre botones */
+}
+
+nav a:hover {
+  background-color: rgb(109, 109, 101);
+  color: white;
+  transition: 0.3s;
+}
+
+.btn-inicio {
+  background-color: transparent;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: bold; /* Esto pone la letra en negrita estándar */
+}
+.btn-inicio:hover {
+  background-color: rgb(223, 223, 150);
+  transition: 0.3s;
+}
+
+/*1º Sección*/
+
+.section1 {
+  align-items: center; /* ESTO centra el contenido verticalmente */
+  text-align: center;
+  padding: 30px ; /* Un poco de aire a los lados para que no toque los bordes */
+  background-color: rgb(247, 230, 230);
+}
+
+section h1 {
+  margin: 40px;
+  text-align: center;
+}
+
+section h3 {
+  text-align: left;
+  margin: 0px 20px;
+  color: gray;
+}
+
+.section1 p {
+  text-align: left;
+  margin: 20px;
+}
+
+.btn-conocelos {
+  background-color: transparent;
+  margin: 20px 10px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: bold; /* Esto pone la letra en negrita estándar */
+}
+.btn-conocelos:hover {
+  background-color: rgb(223, 223, 150);
+  transition: 0.3s;
+}
+
+.img1 {
+  width: 80%;
+  margin-bottom: 40px;
+}
+
+/*2º Sección*/
+
+.section2 {
+  align-items: center; /* ESTO centra el contenido verticalmente */
+  text-align: center;
+  padding: 30px; /* Un poco de aire a los lados para que no toque los bordes */
+}
+.section2 h3 {
+  color: gray;
+  text-align: left;
+}
+.section2 h4 {
+  margin: 10px;
+  color: gray;
+  text-align: left;
+}
+
+.section2 p {
+  margin: 10px;
+  text-align: left;
+}
+
+.btn-promo {
+  background-color: transparent;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: bold; /* Esto pone la letra en negrita estándar */
+}
+
+.btn-promo:hover {
+  background-color: rgb(223, 223, 150);
+  transition: 0.3s;
+}
+
+.fondo {
+  background-image: url(../imagenes/descarga.jpg);
+}
+.fondo1 {
+  background-color: #e6e8d3;
+}
+
+.fondo2 {
+  background-color: #dce8d3;
+}
+
+.fondo3 {
+  background-image: url(../imagenes/promo1.jpg);
+}
+
+.fondo,
+.fondo1,
+.fondo2,
+.fondo3 {
+  text-align: right;
+  background-repeat: no-repeat; /* Evita que la imagen se duplique */
+  background-size: cover; /* Hace que la imagen cubra todo el contenedor */
+  background-position: center; /* Centra la imagen para que no se corte un lado */
+  padding: 2%;
+  margin: 20px 10px;
+  font-weight: bold; /* Esto pone la letra en negrita estándar */
+  opacity: 0.9;
+}
+
+.centro-boton {
+  display: flex;
+  justify-content: center; /* Lo centra horizontalmente */
+  width: 100%; /* Asegura que ocupe todo el ancho para poder centrar */
+  margin-top: 20px; /* Un poco de espacio respecto a la promo de arriba */
+  margin-bottom: 20px; /* Espacio respecto al banner de abajo */
+}
+
+/*3º Sección*/
+
+.section3 {
+  text-align: center;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../imagenes/imagen1.jpg);
+  background-repeat: no-repeat; /* Evita que la imagen se duplique */
+  background-size: cover; /* Hace que la imagen cubra todo el contenedor */
+  background-position: center; /* Centra la imagen para que no se corte un lado */
+  padding: 100px 10px;
+  margin: 10px 30px;
+  color: white;
+}
+.section3 h2{
+  color: white;
+}
+
+/*Footer*/
+
+footer {
+  margin-top: 60px;
+  padding: 40px;
+  background-color: gray;
+  text-align: center;
+}
+
+footer nav a {
+  margin: 0px;
+  display: inline-block; /* Esto hace que el ancho sea solo el del texto */
+  padding: 4px; /* Espacio dentro del borde */
+  border: 0;
+  margin-bottom: 0px; /* Espacio entre botones */
+  color: white;
+  font-size: larger;
+  background-color: black;
+}
+.redes img {
+  margin: 5px;
+}
+
+/*Flecha*/
+
+.flecha {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 35px;
+  background-color: transparent;
+  display: flex;
+  position: fixed;
+  bottom: 30px;
+  right: 15px;
+}
+
+.flecha:hover {
+  background-color: azure;
+  transform: scale(1.1);
+  filter: brightness(1.1);
+}
+
+@media (min-width: 576px) {
+  nav a {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-6 {
+    width: 50%;
+  }
+
+  
+  .encabezado {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .final {
+    align-items: center;
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}

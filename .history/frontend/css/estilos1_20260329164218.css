@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+/*estilos universales*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700; /* Esto le da el grosor elegante */
+  color: #4a4a4a; /* Un gris oscuro queda más suave que el negro puro */
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+[class^="col-"] {
+  width: 100%;
+  padding: 5px;
+}
+
+.efecto {
+  padding: 5px;
+}
+
+.efecto:hover {
+  transform: scale(1.1);
+  filter: brightness(1.1);
+}
+
+.logo-pequeño {
+  width: 200px;
+  height: 100px;
+  object-fit: contain; /* Esto evita que la imagen se deforme */
+}
+
+/*Header*/
+header {
+  text-align: center;
+  margin: 10px;
+}
+
+.logo {
+  margin: 10px;
+}
+/*barra de navegación*/
+
+nav a {
+  display: block; /* Esto hace que el ancho sea solo el del texto */
+  padding: 10px 20px; /* Espacio dentro del borde */
+  border: 1px solid #ccc;
+  margin-bottom: 5px; /* Espacio entre botones */
+}
+
+nav a:hover {
+  background-color: rgb(109, 109, 101);
+  color: white;
+  transition: 0.3s;
+}
+
+.btn-inicio {
+  background-color: transparent;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: bold; /* Esto pone la letra en negrita estándar */
+}
+.btn-inicio:hover {
+  background-color: rgb(223, 223, 150);
+  transition: 0.3s;
+}

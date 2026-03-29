@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+/*Estilos Universales*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700; /* Esto le da el grosor elegante */
+  color: #4a4a4a; /* Un gris oscuro queda más suave que el negro puro */
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+[class^="col-"] {
+  width: 100%;
+  padding: 5px;
+}
+
+.efecto {
+  padding: 5px;
+}
+
+.efecto:hover {
+  transform: scale(1.1);
+  filter: brightness(1.1);
+}
+
+.logo-pequeño {
+  width: 200px;
+  height: 100px;
+  object-fit: contain; /* Esto evita que la imagen se deforme */
+}
+
+/*Header*/
+header {
+  text-align: center;
+  margin: 10px;
+}
+
+.logo {
+  margin: 10px;
+}
+/*Barra de navegación*/
+
+nav a {
+  display: block; /* Esto hace que el ancho sea solo el del texto */
+  padding: 10px 20px; /* Espacio dentro del borde */
+  border: 1px solid #ccc;
+  margin-bottom: 5px; /* Espacio entre botones */
+}
+
+nav a:hover {
+  background-color: rgb(109, 109, 101);
+  color: white;
+  transition: 0.3s;
+}
+
+.btn-inicio {
+  background-color: transparent;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: bold; /* Esto pone la letra en negrita estándar */
+}
+.btn-inicio:hover {
+  background-color: rgb(223, 223, 150);
+  transition: 0.3s;
+}
+
+/*1º Sección*/
+
+.section1 {
+  align-items: center; /* ESTO centra el contenido verticalmente */
+  text-align: center;
+  col
+  background-color: rgba(248, 169, 31, 0.559);
+}
+section h1 {
+  margin: 20px;
+  text-align: left;
+}
+
+section p {
+  text-align: left;
+  margin: 0px 20px;
+}
+
+.section1 h2 {
+  margin: 20px;
+  
+}
+
+
+/*Footer*/
+
+footer {
+  margin-top: 60px;
+  padding: 40px;
+  background-color: gray;
+  text-align: center;
+}
+
+footer nav a {
+  margin: 0px;
+  display: inline-block; /* Esto hace que el ancho sea solo el del texto */
+  padding: 4px; /* Espacio dentro del borde */
+  border: 0;
+  margin-bottom: 0px; /* Espacio entre botones */
+}
+.redes img {
+  margin: 5px;
+}
+
+/*Flecha*/
+
+.flecha {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 35px;
+  background-color: transparent;
+  display: flex;
+  position: fixed;
+  bottom: 30px;
+  right: 15px;
+}
+
+.flecha:hover {
+  background-color: azure;
+  transform: scale(1.1);
+  filter: brightness(1.1);
+}
+
+@media (min-width: 576px) {
+  nav a {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-6 {
+    width: 50%;
+  }
+
+  .uno p {
+    padding: 10px 20px;
+  }
+  .encabezado {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .final {
+    align-items: center;
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
