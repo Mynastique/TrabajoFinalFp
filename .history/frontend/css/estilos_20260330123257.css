@@ -222,14 +222,14 @@ section h3 {
 
 .section3 {
   text-align: center;
-  background-image: url(../imagenes/pexels-arina-krasnikova-6663374.jpg);
+  background-image: url(../imagenes/pexels-arina-krasnikova-6663374.jpg); opacity: ;;
   background-repeat: no-repeat; /* Evita que la imagen se duplique */
   background-size: cover; /* Hace que la imagen cubra todo el contenedor */
   background-position: center; /* Centra la imagen para que no se corte un lado */
   padding: 100px 10px;
   margin: 0;
-  border: 1px solid rgb(61, 61, 61);  
-  opacity: 0.8;
+  border: 1px solid rgb(61, 61, 61);
+  
 }
 .section3 h2 {
   color: white;

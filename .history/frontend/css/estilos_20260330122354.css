@@ -54,7 +54,7 @@ body {
 /*Header*/
 header {
   text-align: center;
-  margin: 0;
+  margin: 10px;
   margin-bottom: 0;
   padding: 10px;
   border: 1px solid  rgb(61, 61, 61);
@@ -96,7 +96,7 @@ nav a:hover {
   align-items: center; /* ESTO centra el contenido verticalmente */
   text-align: center;
   border: 1px solid  rgb(61, 61, 61);
-  margin: 0;
+  margin: 0px 10px;
   padding: 30px; /* Un poco de aire a los lados para que no toque los bordes */
   background-color: rgb(247, 230, 230);
 }
@@ -140,8 +140,8 @@ section h3 {
   align-items: center; /* ESTO centra el contenido verticalmente */
   text-align: center;
   padding: 30px; /* Un poco de aire a los lados para que no toque los bordes */
-  margin: 0;
-  border: 1px solid rgb(61, 61, 61);
+  margin: 0 10px;
+    border: 1px solid rgb(61, 61, 61);
 }
 .section2 h3 {
   color: gray;
@@ -227,9 +227,8 @@ section h3 {
   background-size: cover; /* Hace que la imagen cubra todo el contenedor */
   background-position: center; /* Centra la imagen para que no se corte un lado */
   padding: 100px 10px;
-  margin: 0;
-  border: 1px solid rgb(61, 61, 61);  
-  opacity: 0.8;
+  margin: 10px 30px;
+   rgb(61, 61, 61)
 }
 .section3 h2 {
   color: white;
@@ -238,9 +237,8 @@ section h3 {
 /*Footer*/
 
 footer {
-  margin-top: 0;
-  border: 1px solid rgb(61, 61, 61);
-  padding: 60px;
+  margin-top: 60px;
+  padding: 40px;
   background-color: gray;
   text-align: center;
 }

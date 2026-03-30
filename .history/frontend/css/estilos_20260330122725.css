@@ -228,8 +228,8 @@ section h3 {
   background-position: center; /* Centra la imagen para que no se corte un lado */
   padding: 100px 10px;
   margin: 0;
-  border: 1px solid rgb(61, 61, 61);  
-  opacity: 0.8;
+  border: 1px solid rgb(61, 61, 61);
+  
 }
 .section3 h2 {
   color: white;
@@ -238,9 +238,8 @@ section h3 {
 /*Footer*/
 
 footer {
-  margin-top: 0;
-  border: 1px solid rgb(61, 61, 61);
-  padding: 60px;
+  margin-top: 60px;
+  padding: 40px;
   background-color: gray;
   text-align: center;
 }

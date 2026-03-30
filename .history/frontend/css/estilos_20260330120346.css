@@ -54,10 +54,8 @@ body {
 /*Header*/
 header {
   text-align: center;
-  margin: 0;
-  margin-bottom: 0;
-  padding: 10px;
-  border: 1px solid  rgb(61, 61, 61);
+  margin: 10px;
+    border: 1px solid black;
 }
 
 .logo {
@@ -95,9 +93,7 @@ nav a:hover {
 .section1 {
   align-items: center; /* ESTO centra el contenido verticalmente */
   text-align: center;
-  border: 1px solid  rgb(61, 61, 61);
-  margin: 0;
-  padding: 30px; /* Un poco de aire a los lados para que no toque los bordes */
+  padding: 30px ; /* Un poco de aire a los lados para que no toque los bordes */
   background-color: rgb(247, 230, 230);
 }
 
@@ -140,8 +136,6 @@ section h3 {
   align-items: center; /* ESTO centra el contenido verticalmente */
   text-align: center;
   padding: 30px; /* Un poco de aire a los lados para que no toque los bordes */
-  margin: 0;
-  border: 1px solid rgb(61, 61, 61);
 }
 .section2 h3 {
   color: gray;
@@ -170,11 +164,9 @@ section h3 {
   transition: 0.3s;
 }
 
+
 /* Base común para todas las tarjetas de promo */
-.fondo,
-.fondo1,
-.fondo2,
-.fondo3 {
+.fondo, .fondo1, .fondo2, .fondo3 {
   text-align: right;
   padding: 40px 20px; /* Padding fijo suele ser más estable que % */
   margin: 20px 10px;
@@ -187,28 +179,19 @@ section h3 {
 }
 
 /* Específico para las que llevan IMAGEN */
-.fondo,
-.fondo3 {
+.fondo, .fondo3 {
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; 
   background-position: center;
 }
 
 /* Específico para las que llevan COLOR */
-.fondo1 {
-  background-color: #e6e8d3;
-}
-.fondo2 {
-  background-color: #dce8d3;
-}
+.fondo1 { background-color: #e6e8d3; }
+.fondo2 { background-color: #dce8d3; }
 
 /* Rutas de imagen */
-.fondo {
-  background-image: url(../imagenes/pexels-artempodrez-7233312.jpg);
-}
-.fondo3 {
-  background-image: url(../imagenes/pexels-artempodrez-7233328.jpg);
-}
+.fondo { background-image: url(../imagenes/pexels-artempodrez-7233312.jpg); }
+.fondo3 { background-image: url(../imagenes/pexels-artempodrez-7233328.jpg); }
 
 .centro-boton {
   display: flex;
@@ -222,25 +205,23 @@ section h3 {
 
 .section3 {
   text-align: center;
-  background-image: url(../imagenes/pexels-arina-krasnikova-6663374.jpg);
+  background-image:
+    url(../imagenes/pexels-arina-krasnikova-6663374.jpg);
   background-repeat: no-repeat; /* Evita que la imagen se duplique */
   background-size: cover; /* Hace que la imagen cubra todo el contenedor */
   background-position: center; /* Centra la imagen para que no se corte un lado */
   padding: 100px 10px;
-  margin: 0;
-  border: 1px solid rgb(61, 61, 61);  
-  opacity: 0.8;
+  margin: 10px 30px;
 }
-.section3 h2 {
+.section3 h2{
   color: white;
 }
 
 /*Footer*/
 
 footer {
-  margin-top: 0;
-  border: 1px solid rgb(61, 61, 61);
-  padding: 60px;
+  margin-top: 60px;
+  padding: 40px;
   background-color: gray;
   text-align: center;
 }
@@ -252,6 +233,7 @@ footer nav a {
   border: 0;
   margin-bottom: 0px; /* Espacio entre botones */
   font-size: larger;
+
 }
 .redes img {
   margin: 5px;
@@ -288,6 +270,7 @@ footer nav a {
     width: 50%;
   }
 
+  
   .encabezado {
     display: flex;
     justify-content: space-around;
