@@ -65,22 +65,13 @@
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3040.756606611871!2d-3.8275822!3d40.347744999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd418eca7f406589%3A0x7199fb37c5505389!2sCentro%20de%20Formaci%C3%B3n%20Profesional%20Juan%20XXIII!5e0!3m2!1ses!2ses!4v1775149749475!5m2!1ses!2ses"
                         width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-                <div class="segundo col-6">
-                    <h4>O ESCRÍBENOS:</h4>
-                    <form class="form-contacto">
-                        <input type="text" id="nombreUsuario" name="nombre" placeholder="Nombre y apellidos*">
-                        <input type="email" id="emailUsuario" name="mail" placeholder="Email*">
-                        <input type="tel" id="telefonoUsuario" name="telefono" placeholder="Teléfono*">
-                        <textarea id="mensajeUsuario" name="comentarios" placeholder="Cuéntanos..."></textarea>
+          // 1. REFERENCIAS AL DOM (Utilizando ID de forma tradicional)
+const formularioContacto = document.querySelector(".form-contacto"); // Este se queda igual para capturar el evento submit del form
 
-                        <button type="submit" class="btn-enviar">Enviar</button>
-                    </form>
-                    <p>*Campos obligatorios</p>
-                    <img src="imagenes/pexels-zandatsu-16571736.jpg" alt="">
-                </div>
-
-            </div>
+const nombreUsuario = document.getElementById("nombreUsuario");
+const emailUsuario = document.getElementById("emailUsuario");
+const telefonoUsuario = document.getElementById("telefonoUsuario");
+const mensajeUsuario = document.getElementById("mensajeUsuario");
 
         </section>
     </main>
