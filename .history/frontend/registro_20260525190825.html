@@ -38,22 +38,19 @@
     <main>
         <!--1ºSección-->
         <section class="section1">
-            <div class="row">
-                <div class="col-6">
-                    <h1>INSPIRE BEAUTY</h1>
-                    <h3>INICIA SESIÓN O REGISTRATE</h3>
-                    <form action="" class="form-contacto" id="formLogin">
+            <div>
+                <h1>DATOS PERSONALES</h1>
+                <form action="" class="form-contacto" id="formRegistro">
+                    <input type="text" id="nombreUsuario" name="nombre" placeholder="NOMBRE*" required>
+                    <input type="text" id="apellidosUsuario" name="apellidos" placeholder="APELLIDOS*" required>
+                    <input type="email" id="emailUsuario" name="mail" placeholder="EMAIL*" required>
+                    <input type="password" id="passwordUsuario" name="contraseña" placeholder="CONTRASEÑA*" required>
+                    <input type="password" id="confirmPasswordUsuario" name="confirmarContraseña"
+                        placeholder="CONFIRMAR CONTRASEÑA*" required>
+                    <input type="text" id="telefonoUsuario" name="telefono" placeholder="TELÉFONO">
 
-                        <input type="email" id="emailLogin" name="mail" placeholder="EMAIL*" required>
-                        <input type="password" id="passwordLogin" name="contraseña" placeholder="CONTRASEÑA*" required>
-
-                        <button type="submit" class="btn-cuenta">INICIAR SESIÓN</button>
-                    </form>
-
-                </div>
-                <div class="col-6">
-                    <img src="imagenes/pexels-burakeroglu3-35495081.jpg" alt="">
-                </div>
+                    <button type="submit" class="btn-cuenta">CREAR CUENTA</button>
+                </form>
             </div>
         </section>
 
@@ -62,7 +59,7 @@
 
     <!--Flecha a inicio-->
     <div class="flecha">
-        <a href="login.html#inicio"><img src="imagenes/flecha-hacia-arriba.png" alt=""></a>
+        <a href="registro.html#inicio"><img src="imagenes/flecha-hacia-arriba.png" alt=""></a>
     </div>
 
     <!--Footer-->
@@ -88,7 +85,8 @@
             <p>© 2026 Inspire Beauty - Centro de estética. Todos los derechos reservados.</p>
         </div>
     </footer>
-    <script src="js/login.js"></script>
+    
+
 </body>
 
 </html>

@@ -1,4 +1,6 @@
+// ==========================================================================
 // 1. REFERENCIAS AL DOM (Utilizando tus IDs tradicionales)
+// ==========================================================================
 const formularioLogin = document.getElementById("formLogin");
 
 const emailLogin = document.getElementById("emailLogin");

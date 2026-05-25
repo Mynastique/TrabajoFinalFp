@@ -1,4 +1,6 @@
+// ==========================================================================
 // 1. REFERENCIAS AL DOM (Utilizando IDs tradicionales como en el curso)
+// ==========================================================================
 const formularioContacto = document.querySelector(".form-contacto");
 
 const nombreUsuario = document.getElementById("nombreUsuario");
@@ -6,7 +8,9 @@ const emailUsuario = document.getElementById("emailUsuario");
 const telefonoUsuario = document.getElementById("telefonoUsuario");
 const mensajeUsuario = document.getElementById("mensajeUsuario");
 
+// ==========================================================================
 // 2. LOCALSTORAGE
+// ==========================================================================
 let mensajes = JSON.parse(localStorage.getItem("mensajes_contacto")) || [];
 
 // 3. FUNCIONES LÓGICAS

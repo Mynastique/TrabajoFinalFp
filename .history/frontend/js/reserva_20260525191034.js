@@ -1,4 +1,6 @@
+// ==========================================================================
 // 1. REFERENCIAS AL DOM (Con tus IDs de siempre)
+// ==========================================================================
 const formularioReserva = document.getElementById("formReserva");
 
 const nombreReserva = document.getElementById("nombreReserva");
@@ -8,6 +10,7 @@ const selectServicio = document.getElementById("selectServicio");
 const fechaCita = document.getElementById("fechaCita");
 const mensajeReserva = document.getElementById("mensajeReserva");
 
+// ==========================================================================
 // 2. LOCALSTORAGE
 let citas = JSON.parse(localStorage.getItem("citas_reservadas")) || [];
 

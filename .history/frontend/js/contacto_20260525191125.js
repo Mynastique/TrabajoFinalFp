@@ -1,4 +1,6 @@
+// ==========================================================================
 // 1. REFERENCIAS AL DOM (Utilizando IDs tradicionales como en el curso)
+// ==========================================================================
 const formularioContacto = document.querySelector(".form-contacto");
 
 const nombreUsuario = document.getElementById("nombreUsuario");

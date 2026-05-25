@@ -1,14 +1,20 @@
+// ==========================================================================
 // 1. REFERENCIAS AL DOM (Utilizando tus IDs tradicionales)
+// ==========================================================================
 const formularioLogin = document.getElementById("formLogin");
 
 const emailLogin = document.getElementById("emailLogin");
 const passwordLogin = document.getElementById("passwordLogin");
 
+// ==========================================================================
 // 2. LOCALSTORAGE
+// ==========================================================================
 // Traemos la lista de usuarios que se han registrado previamente en la web
 let usuarios = JSON.parse(localStorage.getItem("usuarios_registrados")) || [];
 
+// ==========================================================================
 // 3. FUNCIONES LÓGICAS
+// ==========================================================================
 // Comprueba si las credenciales coinciden con algún usuario de la base de datos
 function validarCredenciales(email, password) {
   // Buscamos un usuario cuyo email y contraseña coincidan a la vez
