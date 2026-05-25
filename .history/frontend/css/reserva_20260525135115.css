@@ -1,3 +1,6 @@
+/* ==========================================================================
+   ESTILOS ESPECÍFICOS PARA LA PÁGINA DE RESERVAR CITA
+   ========================================================================== */
 
 /* Añadimos scroll suave en la pantalla de reservas */
 html {
@@ -65,33 +68,26 @@ html {
   text-align: center;
 }
 
+/* ==========================================================================
+   ADAPTACIÓN RESPONSIVA (MÓVILES) - Sigue tu breakpoint de 768px
+   ========================================================================== */
 @media (max-width: 768px) {
-  
-  /* Forzamos a la sección a usar el ancho completo reduciendo los márgenes generales */
-  section.section2 {
-    margin: 20px 10px; /* Margen muy pequeñito para que la caja se estire */
-    padding: 10px;
+  .section2 {
+    margin: 30px 15px !important; /* 30px arriba/abajo y solo 15px a los lados */
   }
-
-  /* Forzamos a que las columnas de la reserva ocupen toda la fila en el móvil */
-  .section2 .row .col-6 {
-    width: 100%;
-    margin-bottom: 20px; /* Separación para que el formulario no pegue a los textos */
-  }
-
-  /* En móviles hacemos que select y date ocupen el 100% real de la caja */
+  /* En móviles forzamos que select y date ocupen el 100% real de la columna móvil */
   .form-contacto select,
   .form-contacto input[type="date"] {
     width: 100%;
     margin: 10px 0;
   }
   
-  /* Quitamos los márgenes del horario para aprovechar el espacio del teléfono */
+  /* Quitamos los márgenes laterales del horario para aprovechar el espacio */
   .grid-horario p {
     margin: 5px 0;
   }
   
-  /* Reducimos la marca de agua para que encaje bien abajo */
+  /* Reducimos un pelín la marca de agua para que no desplace la pantalla */
   .marca-agua {
     font-size: 28px;
     margin-top: 25px;
