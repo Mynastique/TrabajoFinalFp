@@ -4,13 +4,15 @@
 :root {
   /* Paleta Premium e Identidad Visual */
   --text-main: #4a4a4a;                    /* Gris oscuro suave para tipografía de títulos */
-  --text-muted: #888;                      /* Gris neutro para el precio antiguo tachado */
-  --accent-gold: #d4a373;                  /* El tono dorado/canela para el precio destacado (.ahora) */
+  --text-muted: gray;                      /* Gris neutro para subtítulos y textos secundarios */
   
   /* Componentes, Enlaces e Inputs */
-  --color-dark: black;                     /* Negro estándar para enlaces y bordes de botones */
-  --color-light: white;                    /* Blanco estándar para el fondo de las promociones */
-  --border-light: #ccc;                    /* Gris claro estructural para menús y cajas */
+  --color-dark: black;                     /* Negro estándar para enlaces y botones */
+  --color-light: white;                    /* Blanco estándar para textos internos o estados */
+  --border-light: #ccc;                    /* Gris claro estructural para menús */
+  
+  /* Bloques Específicos del Formulario de Contacto */
+  --border-form-box: #535151;              /* El gris oscuro de los bordes de tus secciones .primero y .segundo */
   
   /* Interactividad y Efectos :hover */
   --hover-nav: rgb(109, 109, 101);        /* Fondo del menú de navegación al pasar el cursor */
@@ -42,7 +44,7 @@ img {
 
 a {
   text-decoration: none;
-  color: var(--color-dark); /* Antes: black */
+  color: var(--color-dark); /* Antes: black[cite: 8] */
 }
 
 .row {
@@ -51,15 +53,7 @@ a {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh; 
-  margin: 0;
-  font-family: "Lato", sans-serif; 
-}
-
-main {
-  flex: 1; 
+  font-family: "Lato", sans-serif;
 }
 
 [class^="col-"] {
@@ -88,7 +82,7 @@ header {
   margin: 0;
   margin-bottom: 0;
   padding: 10px;
-  border: 1px solid var(--border-header-footer); /* Antes: rgb(61, 61, 61) */
+  border: 1px solid var(--border-header-footer); /* Antes: rgb(61, 61, 61)[cite: 8] */
 }
 
 .logo {
@@ -99,18 +93,18 @@ header {
 nav li {
   display: block; 
   padding: 10px 20px; 
-  border: 1px solid var(--border-light); /* Antes: #ccc */
+  border: 1px solid var(--border-light); /* Antes: #ccc[cite: 8] */
   margin-bottom: 5px; 
 }
 
 nav li:hover {
-  background-color: var(--hover-nav); /* Antes: rgb(109, 109, 101) */
-  color: var(--color-light); /* Antes: white */
+  background-color: var(--hover-nav); /* Antes: rgb(109, 109, 101)[cite: 8] */
+  color: var(--color-light); /* Antes: white[cite: 8] */
   transition: 0.3s;
 }
 
 nav li:hover a {
-  color: var(--color-light); /* Antes: white */
+  color: var(--color-light); /* Antes: white[cite: 8] */
 }
 
 .btn-inicio {
@@ -118,79 +112,103 @@ nav li:hover a {
   background-color: transparent;
   margin-top: 20px;
   padding: 10px 20px;
-  border: 1px solid var(--color-dark); /* Antes: black */
+  border: 1px solid var(--color-dark); /* Antes: black[cite: 8] */
   border-radius: 4px;
   font-weight: bold; 
 }
 
 .btn-inicio:hover {
-  background-color: var(--hover-btn); /* Antes: rgb(223, 223, 150) */
+  background-color: var(--hover-btn); /* Antes: rgb(223, 223, 150)[cite: 8] */
   transition: 0.3s;
 }
 
 /* 1º Sección */
-.section {
-  margin: 40px;
-}
-
-.section h2 {
-  text-align: center;
-  margin: 40px;
-}
-
-.promociones {
+.section1 {
   text-align: center;
 }
 
-.promocion {
+.section1 h3 {
+  margin: 20px;
+  padding: 20px;
+}
+
+.section1 h1 {
+  margin: 20px;
+}
+
+/* 2º Sección (Formulario y Datos de Contacto) */
+.section2 {
+  margin: 50px;
+}
+
+.primero {
+  border: 1px solid var(--border-form-box); /* Antes: #535151[cite: 8] */
+  padding: 20px;
+}
+
+.segundo {
+  border: 1px solid var(--border-form-box); /* Antes: #535151[cite: 8] */
+  padding: 20px;
   display: flex; 
-  align-items: center; 
-  background-color: var(--color-light); /* Antes: #fff */
-  border: 1px solid var(--border-light); /* Antes: 1px solid #ccc */
-  margin-bottom: 20px;
+  flex-direction: column; 
+}
+
+.section2 h4 {
+  text-align: left;
   padding: 10px;
-  gap: 20px; 
+  margin-bottom: 30px;
+  color: var(--text-muted); /* Vinculado a tus textos secundarios para dar coherencia[cite: 8] */
 }
 
-.promo-img {
-  width: 150px; 
-  height: 150px;
-  object-fit: cover; 
+.section2 img {
+    width: 90%;
+    margin: 10px auto;
 }
 
-.promo-texto {
-  flex: 1; 
-  text-align: left; 
+.direccion {
+  padding: 10px;
 }
 
-.section img {
-  width: 60%;
+.separar {
+  padding: 10px;
+  margin-bottom: 60px;
 }
 
-.precio-promo {
-  margin-top: 10px;
-  font-family: "Lato", sans-serif;
+iframe {
+  display: block;
+  margin: 20px 0;
+  width: 100%;
 }
 
-.antes {
-  text-decoration: line-through; 
-  color: var(--text-muted); /* Antes: #888 */
-  margin-right: 10px;
-  font-size: 0.9rem;
+input,
+textarea {
+  width: 90%; 
+  margin: 10px auto; 
+  padding: 5px;
+  display: block;
 }
 
-.ahora {
-  color: var(--accent-gold); /* Antes: #d4a373 */
-  font-weight: bold;
-  font-size: 1.2rem;
+.section2 p {
+    margin: 10px;
+}
+
+.btn-enviar {
+  display: block; 
+  background-color: var(--color-dark); /* Antes: black[cite: 8] */
+  color: var(--color-light); /* Antes: white[cite: 8] */
+  border: none; 
+  cursor: pointer; 
+  padding: 10px;
+  width: 30%;
+  margin: 10px auto; 
 }
 
 /* Footer */
 footer {
   margin-top: 0;
-  border: 1px solid var(--border-header-footer); /* Antes: rgb(61, 61, 61) */
+  border: 1px solid var(--border-header-footer); /* Antes: rgb(61, 61, 61)[cite: 8] */
   padding: 60px;
-  background-color: var(--footer-bg); /* Antes: gray */
+  background-color: var(--footer-bg); /* Antes: gray[cite: 8] */
   text-align: center;
 }
 
@@ -200,6 +218,7 @@ footer nav a {
   padding: 4px; 
   border: 0;
   margin-bottom: 0px; 
+  color: var(--color-dark);
 }
 
 .redes img {
@@ -213,7 +232,7 @@ footer nav a {
 /* Flecha */
 .flecha {
   padding: 5px;
-  border: 1px solid var(--color-dark); /* Antes: black */
+  border: 1px solid var(--color-dark); /* Antes: black[cite: 8] */
   border-radius: 50%;
   width: 40px;
   background-color: transparent;
@@ -224,7 +243,7 @@ footer nav a {
 }
 
 .flecha:hover {
-  background-color: var(--hover-btn); /* Antes: rgb(223, 223, 150) */
+  background-color: var(--hover-btn); /* Antes: rgb(223, 223, 150)[cite: 8] */
   transform: scale(1.1);
   filter: brightness(1.1);
 }
@@ -242,16 +261,6 @@ footer nav a {
 }
 
 @media (min-width: 768px) {
-  .promo-content {
-    flex-direction: column; 
-    text-align: center;
-  }
-
-  .img-promo {
-    width: 100%; 
-    height: auto;
-  }
-  
   .col-6 {
     width: 50%;
   }
