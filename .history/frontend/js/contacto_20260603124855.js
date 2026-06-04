@@ -1,4 +1,4 @@
-// 1. REFERENCIAS AL DOM 
+// 1. REFERENCIAS AL DOM (Utilizando IDs tradicionales como en el curso)
 const formularioContacto = document.querySelector(".form-contacto");
 
 const nombreUsuario = document.getElementById("nombreUsuario");
@@ -7,11 +7,11 @@ const telefonoUsuario = document.getElementById("telefonoUsuario");
 const mensajeUsuario = document.getElementById("mensajeUsuario");
 
 // 2. LOCALSTORAGE
-let mensajes = JSON.parse(localStorage.getItem("mensajes")) || [];
+let mensajes = JSON.parse(localStorage.getItem("mensajes_contacto")) || [];
 
 // 3. FUNCIONES LÓGICAS
 function guardarMensajes(){
-  localStorage.setItem("mensajes", JSON.stringify(mensajes));
+  localStorage.setItem("mensajes_contacto", JSON.stringify(mensajes));
 }
 
 function limpiarCampos(){
@@ -41,18 +41,18 @@ if (formularioContacto) {
   formularioContacto.addEventListener("submit", (e)=>{
     e.preventDefault();
 
+    // VALIDACIÓN NATIVA: Si el formulario tiene campos vacíos, activa el aviso del navegador
+    if (!formularioContacto.checkValidity()) {
+      formularioContacto.reportValidity();
+      return;
+    }
+
     // Recogemos los valores directamente desde tus referencias por ID
     const nombre = nombreUsuario.value.trim();
     const email = emailUsuario.value.trim();
     const telefono = telefonoUsuario.value.trim();
 
-    // Validación de campos obligatorios
-    if(nombre === "" || email === "" || telefono === ""){
-      alert("Por favor, rellene todos los campos obligatorios (*)");
-      return;
-    }
-
-    // Validación de formato de email
+    // Validación de formato de email (mantenemos el alert solo si el formato falla)
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if(!emailRegex.test(email)){
       alert("Por favor, introduce un email válido (ejemplo@dominio.com).");
@@ -77,8 +77,6 @@ if (formularioContacto) {
 }
 
 // 6. INICIALIZACIÓN
-// Renderiza o prepara el entorno una vez que el HTML está completamente cargado
 document.addEventListener("DOMContentLoaded", () => {
-  // Dejamos el bloque listo por consistencia metodológica con el resto del proyecto
   console.log("Módulo de contacto inicializado correctamente.");
 });

@@ -41,18 +41,13 @@
 
                 <div class="primero col-6">
                     <h3>RESERVA TU MOMENTO</h3>
-                    <p>En <strong>Inspire Beauty</strong> queremos ofrecerte una experiencia única y personalizada desde
-                        el primer instante. Gestiona tu solicitud de cita previa de forma online en menos de un minuto.
-                    </p>
-
+                    <p>En <strong>Inspire Beauty</strong> queremos ofrecerte una experiencia única y personalizada desde el primer instante. Gestiona tu solicitud de cita previa de forma online en menos de un minuto.</p>
+                    
                     <h4>INFORMACIÓN IMPORTANTE:</h4>
                     <ul class="lista-condiciones">
-                        <li>🕒 <strong>Confirmación:</strong> Tras recibir tu solicitud, nuestro equipo se pondrá en
-                            contacto contigo para confirmar la hora exacta de tu sesión.</li>
-                        <li>❌ <strong>Cancelaciones:</strong> Si no puedes asistir, por favor avísanos con un mínimo de
-                            24 horas de antelación para liberar la cabina.</li>
-                        <li>📍 <strong>Puntualidad:</strong> Recomendamos llegar 5 minutos antes para garantizar la
-                            duración completa de tu tratamiento.</li>
+                        <li>🕒 <strong>Confirmación:</strong> Tras recibir tu solicitud, nuestro equipo se pondrá en contacto contigo para confirmar la hora exacta de tu sesión.</li>
+                        <li>❌ <strong>Cancelaciones:</strong> Si no puedes asistir, por favor avísanos con un mínimo de 24 horas de antelación para liberar la cabina.</li>
+                        <li>📍 <strong>Puntualidad:</strong> Recomendamos llegar 5 minutos antes para garantizar la duración completa de tu tratamiento.</li>
                     </ul>
 
                     <h4>NUESTRO HORARIO DE ATENCIÓN:</h4>
@@ -67,25 +62,24 @@
 
                 <div class="segundo col-6">
                     <h4>SOLICITA TU CITA:</h4>
-                    <form class="form-contacto" id="formReserva" novalidate>
-                        <input type="text" id="nombreReserva" name="nombre" placeholder="Nombre y apellidos*" required>
-                        <input type="email" id="emailReserva" name="mail" placeholder="Email*" required>
-                        <input type="tel" id="telefonoReserva" name="telefono" placeholder="Teléfono*" required>
+                    <form class="form-contacto" id="formReserva" novalidate> 
+    <input type="text" id="nombreReserva" name="nombre" placeholder="Nombre y apellidos*" required>
+    <input type="email" id="emailReserva" name="mail" placeholder="Email*" required>
+    <input type="tel" id="telefonoReserva" name="telefono" placeholder="Teléfono*" required>
+    
+    <select id="selectServicio" name="servicio" required>
+        <option value="" disabled selected>Selecciona un tratamiento*</option>
+        <option value="Higiene Facial">Higiene Facial Avanzada</option>
+        <option value="Radiofrecuencia">Radiofrecuencia Rejuvenecedora</option>
+        <option value="Masaje Relajante">Masaje Relajante Corporal</option>
+        <option value="Tratamiento Reductor">Tratamiento Corporal Reductor</option>
+    </select>
 
-                        <select id="selectServicio" name="servicio" required>
-                            <option value="" disabled selected>Selecciona un tratamiento*</option>
-                            <option value="Higiene Facial">Higiene Facial Avanzada</option>
-                            <option value="Radiofrecuencia">Radiofrecuencia Rejuvenecedora</option>
-                            <option value="Masaje Relajante">Masaje Relajante Corporal</option>
-                            <option value="Tratamiento Reductor">Tratamiento Corporal Reductor</option>
-                        </select>
-
-                        <input type="date" id="fechaCita" name="fecha" required>
-                        <textarea id="mensajeReserva" name="comentarios"
-                            placeholder="Notes adicionales o preferencias médicas..."></textarea>
-
-                        <button type="submit" class="btn-enviar">Solicitar Cita</button>
-                    </form>
+    <input type="date" id="fechaCita" name="fecha" required>
+    <textarea id="mensajeReserva" name="comentarios" placeholder="Notes adicionales o preferencias médicas..."></textarea>
+    
+    <button type="submit" class="btn-enviar">Solicitar Cita</button>
+</form>
                     <p>*Campos obligatorios</p>
                 </div>
 
@@ -126,5 +120,4 @@
     <script src="js/reserva.js"></script>
 
 </body>
-
 </html>

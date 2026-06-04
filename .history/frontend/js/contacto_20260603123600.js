@@ -7,7 +7,7 @@ const telefonoUsuario = document.getElementById("telefonoUsuario");
 const mensajeUsuario = document.getElementById("mensajeUsuario");
 
 // 2. LOCALSTORAGE
-let mensajes = JSON.parse(localStorage.getItem("mensajes")) || [];
+let mensajes = JSON.parse(localStorage.getItem("mensajes_contacto")) || [];
 
 // 3. FUNCIONES LÓGICAS
 function guardarMensajes(){
