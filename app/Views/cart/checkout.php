@@ -29,7 +29,7 @@
                 </select>
                 
                 <div style="text-align: center; margin-top: 30px;">
-                    <button type="submit" class="btn-inicio" style="background-color: var(--hover-btn); border: 2px solid var(--color-dark); font-size: 1.1em; padding: 15px 30px; width: 100%;">Registrar Venta de <?= number_format($total, 2) ?>€</button>
+                    <button type="submit" class="btn-inicio" style="border: 2px solid var(--color-dark); font-size: 1.1em; padding: 15px 30px; width: 100%;">Registrar Venta de <?= number_format($total, 2) ?>€</button>
                     <a href="/cesta" style="display: block; margin-top: 15px; color: var(--text-muted); text-decoration: underline;">Cancelar y volver a la cesta</a>
                 </div>
             </form>
@@ -51,7 +51,7 @@
                 </div>
 
                 <div style="text-align: center; margin-top: 30px;">
-                    <button type="submit" class="btn-inicio" style="background-color: var(--hover-btn); border: 2px solid var(--color-dark); font-size: 1.1em; padding: 15px 30px; width: 100%;">Procesar Pago de <?= number_format($total, 2) ?>€</button>
+                    <button type="submit" class="btn-inicio" style="border: 2px solid var(--color-dark); font-size: 1.1em; padding: 15px 30px; width: 100%;">Procesar Pago de <?= number_format($total, 2) ?>€</button>
                     <a href="/cesta" style="display: block; margin-top: 15px; color: var(--text-muted); text-decoration: underline;">Cancelar y volver a la cesta</a>
                 </div>
             </form>

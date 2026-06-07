@@ -3,7 +3,7 @@
         <div class="col-6">
             <h1>INSPIRE BEAUTY</h1>
             <p class="txt-exclusivo">
-                Área de acceso restringido. Uso exclusivo para personal clínico y administradores del centro.
+                Área privada de clientes y personal del centro.
             </p>
             <h3>INICIA SESIÓN O REGÍSTRATE</h3>
             
