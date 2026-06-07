@@ -345,12 +345,21 @@ const formAdminCita = document.querySelector('form[action="/admin/appointments/a
 if (formAdminCita) {
     const dateInput = formAdminCita.querySelector('input[name="date"]');
     const timeSelect = formAdminCita.querySelector('select[name="time"]');
+    const treatmentSelect = formAdminCita.querySelector('select[name="treatment_id"]');
 
-    dateInput.addEventListener('change', function() {
-        const d = new Date(this.value);
-        const day = d.getDay(); // 0 = Domingo
+    function updateAdminAvailableHours() {
+        const dateStr = dateInput.value;
+        const treatmentId = treatmentSelect.value;
         
-        timeSelect.innerHTML = ''; // Limpiar
+        timeSelect.innerHTML = '<option value="">Cargando horas...</option>';
+        
+        if (!dateStr || !treatmentId) {
+            timeSelect.innerHTML = '<option value="">Seleccione día y tratamiento</option>';
+            return;
+        }
+
+        const d = new Date(dateStr);
+        const day = d.getDay(); // 0 = Domingo
         
         if (day === 0) {
             Swal.fire({title: 'Atención', text: 'El centro está cerrado los domingos.', icon: 'warning', confirmButtonColor: 'var(--color-dark)'});
@@ -358,20 +367,26 @@ if (formAdminCita) {
             return;
         }
         
-        let startHour = 9, endHour = 20; // L-V
-        if (day === 6) { // Sábado
-            startHour = 10;
-            endHour = 14;
-        }
-        
-        timeSelect.innerHTML = '<option value="">-- Seleccionar --</option>';
-        for (let h = startHour; h < endHour; h++) {
-            ['00', '15', '30', '45'].forEach(m => {
-                const timeStr = String(h).padStart(2, '0') + ':' + m;
-                timeSelect.innerHTML += `<option value="${timeStr}">${timeStr}</option>`;
+        fetch(`/api/available-hours?date=${dateStr}&treatment_id=${treatmentId}`)
+            .then(response => response.json())
+            .then(hours => {
+                timeSelect.innerHTML = '<option value="">-- Seleccionar --</option>';
+                if (hours.length === 0) {
+                    timeSelect.innerHTML += '<option value="" disabled>No hay horas libres</option>';
+                } else {
+                    hours.forEach(timeStr => {
+                        timeSelect.innerHTML += `<option value="${timeStr}">${timeStr}</option>`;
+                    });
+                }
+            })
+            .catch(err => {
+                console.error("Error cargando horas:", err);
+                timeSelect.innerHTML = '<option value="">Error al cargar horas</option>';
             });
-        }
-    });
+    }
+
+    dateInput.addEventListener('change', updateAdminAvailableHours);
+    treatmentSelect.addEventListener('change', updateAdminAvailableHours);
 
     formAdminCita.addEventListener('submit', function(e) {
         const dateStr = dateInput.value;

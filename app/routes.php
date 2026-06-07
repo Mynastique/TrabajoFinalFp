@@ -42,6 +42,7 @@ $router->post('/admin/appointments/reschedule', 'AdminController@reschedule');
 // Reservas (Público/Cliente)
 $router->get('/reservar', 'AppointmentController@book');
 $router->post('/reservar', 'AppointmentController@store');
+$router->get('/api/available-hours', 'AppointmentController@getAvailableHours');
 
 // Cesta
 $router->get('/cesta', 'CartController@index');

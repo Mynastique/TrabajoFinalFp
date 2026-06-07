@@ -43,28 +43,28 @@
             <?php endif; ?>
 
             <form class="form-contacto" id="formReserva" action="/reservar" method="POST" novalidate>
-                <input type="text" id="nombreReserva" name="nombre" placeholder="Nombre y apellidos*" required>
-                <input type="email" id="emailReserva" name="email" placeholder="Email*" required>
-                <input type="tel" id="telefonoReserva" name="telefono" placeholder="Teléfono*" required>
+                <input type="text" id="nombreReserva" name="nombre" placeholder="Nombre y apellidos*" required value="<?= htmlspecialchars($oldInput['nombre'] ?? '') ?>">
+                <input type="email" id="emailReserva" name="email" placeholder="Email*" required value="<?= htmlspecialchars($oldInput['email'] ?? '') ?>">
+                <input type="tel" id="telefonoReserva" name="telefono" placeholder="Teléfono*" required value="<?= htmlspecialchars($oldInput['telefono'] ?? '') ?>">
 
                 <!-- Tratamientos cargados dinámicamente desde BD -->
                 <select id="selectServicio" name="treatment_id" required>
-                    <option value="" disabled selected>Selecciona un tratamiento*</option>
+                    <option value="" disabled <?= empty($oldInput['treatment_id']) ? 'selected' : '' ?>>Selecciona un tratamiento*</option>
                     <?php foreach ($treatments as $treatment): ?>
-                        <option value="<?= htmlspecialchars($treatment['id']) ?>">
+                        <option value="<?= htmlspecialchars($treatment['id']) ?>" <?= ($oldInput['treatment_id'] ?? '') == $treatment['id'] ? 'selected' : '' ?>>
                             <?= htmlspecialchars($treatment['name']) ?> (<?= htmlspecialchars($treatment['duration_minutes']) ?> min)
                         </option>
                     <?php endforeach; ?>
                 </select>
 
-                <input type="date" id="fechaCita" name="fecha" required>
+                <input type="date" id="fechaCita" name="fecha" required value="<?= htmlspecialchars($oldInput['fecha'] ?? '') ?>">
                 <!-- Selector de hora dinámico -->
-                <select id="horaCita" name="hora" required>
-                    <option value="">Selecciona fecha primero</option>
+                <select id="horaCita" name="hora" required data-old-time="<?= htmlspecialchars($oldInput['hora'] ?? '') ?>">
+                    <option value="">Selecciona fecha y tratamiento primero</option>
                 </select>
 
                 <textarea id="mensajeReserva" name="comentarios"
-                    placeholder="Notas adicionales o preferencias médicas..."></textarea>
+                    placeholder="Notas adicionales o preferencias médicas..."><?= htmlspecialchars($oldInput['comentarios'] ?? '') ?></textarea>
 
                 <button type="submit" class="btn-enviar">Solicitar Cita</button>
             </form>
@@ -79,17 +79,26 @@ document.addEventListener('DOMContentLoaded', function() {
     const dateInput = document.getElementById('fechaCita');
     const timeSelect = document.getElementById('horaCita');
     const formReserva = document.getElementById('formReserva');
+    const selectServicio = document.getElementById('selectServicio');
 
-    if (dateInput && timeSelect) {
+    if (dateInput && timeSelect && selectServicio) {
         // Bloquear fechas anteriores a hoy
         const today = new Date().toISOString().split('T')[0];
         dateInput.min = today;
 
-        dateInput.addEventListener('change', function() {
-            const d = new Date(this.value);
-            const day = d.getDay(); // 0 = Domingo
+        function updateAvailableHours() {
+            const dateStr = dateInput.value;
+            const treatmentId = selectServicio.value;
             
-            timeSelect.innerHTML = ''; // Limpiar
+            timeSelect.innerHTML = '<option value="">Cargando horas...</option>';
+            
+            if (!dateStr || !treatmentId) {
+                timeSelect.innerHTML = '<option value="">Selecciona fecha y tratamiento</option>';
+                return;
+            }
+
+            const d = new Date(dateStr);
+            const day = d.getDay(); // 0 = Domingo
             
             if (day === 0) {
                 Swal.fire({title: 'Atención', text: 'El centro está cerrado los domingos.', icon: 'warning', confirmButtonColor: 'var(--color-dark)'});
@@ -97,20 +106,35 @@ document.addEventListener('DOMContentLoaded', function() {
                 return;
             }
             
-            let startHour = 9, endHour = 20; // L-V
-            if (day === 6) { // Sábado
-                startHour = 10;
-                endHour = 14;
-            }
-            
-            timeSelect.innerHTML = '<option value="">Selecciona hora</option>';
-            for (let h = startHour; h < endHour; h++) {
-                ['00', '15', '30', '45'].forEach(m => {
-                    const timeStr = String(h).padStart(2, '0') + ':' + m;
-                    timeSelect.innerHTML += `<option value="${timeStr}">${timeStr}</option>`;
+            fetch(`/api/available-hours?date=${dateStr}&treatment_id=${treatmentId}`)
+                .then(response => response.json())
+                .then(hours => {
+                    timeSelect.innerHTML = '<option value="">Selecciona hora</option>';
+                    if (hours.length === 0) {
+                        timeSelect.innerHTML += '<option value="" disabled>No hay horas libres</option>';
+                    } else {
+                        const oldTime = timeSelect.getAttribute('data-old-time');
+                        hours.forEach(timeStr => {
+                            const isSelected = (oldTime === timeStr) ? 'selected' : '';
+                            timeSelect.innerHTML += `<option value="${timeStr}" ${isSelected}>${timeStr}</option>`;
+                        });
+                        // Clear old-time after first use
+                        timeSelect.removeAttribute('data-old-time');
+                    }
+                })
+                .catch(err => {
+                    console.error("Error cargando horas:", err);
+                    timeSelect.innerHTML = '<option value="">Error al cargar horas</option>';
                 });
-            }
-        });
+        }
+
+        dateInput.addEventListener('change', updateAvailableHours);
+        selectServicio.addEventListener('change', updateAvailableHours);
+        
+        // Si hay una fecha (ej. por old_input), cargar horas iniciales
+        if (dateInput.value && selectServicio.value) {
+            updateAvailableHours();
+        }
     }
 
     if (formReserva) {
