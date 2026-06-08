@@ -60,7 +60,7 @@
             </table>
             
             <div style="text-align: right; margin-top: 20px; display: flex; justify-content: flex-end; align-items: center; gap: 20px;">
-                <?php $linkSeguir = (isset($_SESSION['user_role']) && $_SESSION['user_role'] === 'admin') ? '/tratamientos' : '/promociones'; ?>
+                <?php $linkSeguir = '/tratamientos'; ?>
                 <a href="<?= $linkSeguir ?>" style="color: #333; text-decoration: underline; font-weight: bold;">Seguir comprando</a>
                 <a href="/checkout" class="btn-inicio btn-beige" style="background-color: white; border: 2px solid var(--color-dark); padding: 10px 20px; font-weight: bold;">Pagar y Finalizar Compra</a>
             </div>
